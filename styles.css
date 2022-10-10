@@ -25,7 +25,7 @@ html {
     width: 286px;
     min-width: 250px;
     height: 238px;
-    margin-top: 64px;
+    margin-top: 15px;
     justify-self: center;
     background-image: url(./img/Scarecrow.png);
     background-position: center;
@@ -43,7 +43,7 @@ section .p1 {
     min-width: 290px;
     margin-top: 77px;
     font-family: 'Space Mono';
-    font-size: 4.4rem;
+    font-size: 3.4rem;
     font-weight: bold;
     line-height: 7.1rem;
     justify-self: center;
@@ -54,15 +54,15 @@ section .p2 {
     height: auto;
     margin-top: 30px;
     font-family: 'Space Mono';
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.6rem;
     font-weight: 400;
     justify-self: center;
 }
 
 .button button {
-    width: 216px;
-    height: 68px;
+    width: 180px;
+    height: 58px;
     margin: 66px  0 0 24px;
     font-family: 'Space Mono';
     font-size: 1.4rem;
@@ -79,5 +79,5 @@ footer p {
     font-size: 1.4rem;
     line-height: 1.7rem;
     text-align: center;
-    padding: 200px 0 10px 0;
+    margin-top: 50px;
 }
