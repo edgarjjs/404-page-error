@@ -1,0 +1,53 @@
+.nav {
+    font-size: 2.4rem;
+    margin: 40px 0 0 77px;
+}
+
+main {
+    display: grid;
+    margin-top: 160px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.container {
+    grid-row: 1 / 3;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin: 0 0 0 -40px;
+    justify-self: center;
+    background-image: url(./img/Scarecrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section .p1 {
+    width: 90%;
+    height: 190px;
+    margin-top: 30px;
+    font-size: 6.4rem;
+    line-height: 9.4rem;
+    justify-self: start;
+}
+
+section .p2 {
+    width: 55%;
+    height: auto;
+    margin-top: 36px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    justify-self: start;
+}
+
+.button button {
+    justify-self: start;
+    margin: 64px 0 0 0;
+}
+
+footer p {
+    padding-top: 130px;
+}

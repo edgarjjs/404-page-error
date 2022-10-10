@@ -1,0 +1,8 @@
+.button {
+    display: grid;
+    justify-items: center;
+}
+
+footer p {
+    padding: 300px 0 10px 0;
+}
