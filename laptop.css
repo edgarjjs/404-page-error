@@ -5,9 +5,9 @@
 
 main {
     display: grid;
-    margin-top: 160px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
 }
 
 .container {
@@ -44,10 +44,12 @@ section .p2 {
 }
 
 .button button {
-    justify-self: start;
-    margin: 64px 0 0 0;
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(50% - 24px);
 }
 
 footer p {
-    padding-top: 130px;
+    margin: 0;
+    padding-top: 100px;
 }
